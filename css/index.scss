@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'glacial_indifferencebold';
+    src: url('glacialindifference-bold-webfont.woff2') format('woff2'),
+         url('glacialindifference-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'glacial_indifferenceitalic';
+    src: url('glacialindifference-italic-webfont.woff2') format('woff2'),
+         url('glacialindifference-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'glacial_indifferenceregular';
+    src: url('glacialindifference-regular-webfont.woff2') format('woff2'),
+         url('glacialindifference-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$fontbold: 'glacial_indifferencebold', sans-serif;
+$font-reg: 'glacial_indifferenceregular', sans-serif;
+$font-it: 'glacial_indifferenceitalic', sans-serif;
+
+* {
+    box-sizing: border-box;
+    margin-top: 0px;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.hide {
+    display: none;
+}
+
+.header {
+        h1 {position: absolute;
+        right: 0;
+        margin-top: 10%;
+        z-index: 1;
+        color: black;
+        background-color: white;
+        text-transform: uppercase;
+        font-size: 4vw;
+        width: 25%;
+        padding: 2%;
+        z-index: 1000;
+        // padding-right: 15%;
+        }
+}
+
+
+/* // ###############
+//
+// GENERAL BODY TYPE STYLES
+//
+// ############### */
+
+h1 {
+    font-family: $fontbold;
+    font-weight: normal;
+    font-style: normal;
+}
+h2 {
+    font-family: $fontbold;
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    font-family: $font-reg;
+    font-weight: regular;
+    font-style: normal;
+    color: white;
+}
+
+/* // ###############
+//
+// NAVIGATION STYLES
+//
+// ############### */
+
+@import 'nav.scss';
+
+/* // ###############################
+//
+// PAGE CONTENT
+//
+// ################################## */
+
+/* // ###############
+//
+// HEADER STYLES
+//
+// ############### */
+
+@import 'header.scss';
+
+/* // ###############
+//
+// MAIN SECTIONS
+//
+// ############### */
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #3b5ccc;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+/* // ###############
+//
+// S_01 1: RELIGIOUS ERA
+//
+// ############### */
+
+@import 'scene_01.scss';
+
+/* // ###############
+//
+// S_02 2: VAUDEVILLE *INCOMPLETE*
+//
+// ############### */
+
+@import 'scene_02.scss';
+
+/* // ###############
+//
+// S_03 3: PROHIBITION
+//
+// ############### */
+
+@import 'scene_03.scss';
+
+/* // ###############
+//
+// S_04 4: 1960s AND MAFIA
+//
+// ############### */
+
+@import 'scene_04.scss';
+
+/* // ###############
+//
+// S_05 5: MOVIE MAINSTREAM
+//
+// ############### */
+
+@import 'scene_05.scss';
+
+/* // ###############
+//
+// S_06 6: RUPAUL
+//
+// ############### */
+@import 'scene_06.scss';
+
+@import 'scene_07.scss';

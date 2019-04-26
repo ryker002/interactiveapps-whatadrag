@@ -1,0 +1,104 @@
+nav {
+    position: fixed;
+    top: 10%;
+    left: 2%;
+    z-index: 10000;
+    height: 80%;
+    width: 25%;
+
+    .navLine {
+        width: .15%;
+        background-color: white;
+        height: 59%;
+        position: fixed;
+        left: 2.3%;
+        top: 20%;
+        z-index: 0;
+    }
+
+    
+
+    a {
+        font-family: 'GlacialIndifferenceRegular', sans-serif;
+        font-weight: regular;
+        font-style: normal;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: flex;
+        flex-flow: row nowrap;
+
+        .navCirs {
+            background-color: white;
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            justify-items: center;
+            z-index: 10;
+
+            .inner {
+                width: 60%;
+                height: 60%;
+                background-color: blue;
+                border-radius: 100%;
+                justify-self: center;
+                align-self: center;
+                // opacity: 0;
+            }
+
+            .pro, .main, .drag {
+                background-color: white;
+            }
+            .stone {
+                background-color: black;
+            }
+
+        }
+
+        p {
+            padding-left: 10px;
+            margin-left: 8px;
+            font-size: 16px;
+            margin-top: 1px;
+            padding-right: 10px;
+        }
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    ul {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        height: 100%;
+    }
+
+    li {
+        flex-direction: row;
+        /* justify-content: space-between; */
+        /* padding: 15%; */
+    }
+}
+
+@media only screen
+and (min-width : 1224px) 
+and (max-device-width : 1600px){
+    nav {
+        .navLine {
+            position: fixed;
+            left: 2.6%;
+
+        }
+    }
+    }

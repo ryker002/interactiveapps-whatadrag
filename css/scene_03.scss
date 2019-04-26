@@ -1,0 +1,167 @@
+#s_03 {
+    .s_03wrapper {
+        background-image: url("../images/3prohibition/texture.png");
+        background-repeat: repeat;
+        width: 100%;
+        height: 100%;
+        /* margin-left: 25%; */
+
+        .header {
+            h1 {
+                width: 30%;
+            }
+        }
+
+        p {
+            font-family: itc-american-typewriter-cond, serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+    
+        .txt {
+            z-index: 200;
+        }
+        .scn {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+        }
+        .scene01 {
+            .img01 {
+                z-index: 10;
+                position: absolute;
+                left: 25%;
+                transform: rotate(-30deg);
+            }
+    
+            .img02 {
+                z-index: 10;
+                position: absolute;
+                left: 25%;
+                top: 15%;
+                transform: rotate(10deg);
+                z-index: 9;
+            }
+    
+            .img03 {
+                z-index: 10;
+                position: absolute;
+                left: 30%;
+                transform: rotate(15deg);
+                z-index: 9;
+                top: 2%;
+            }
+    
+            .txt {
+                position: absolute;
+                background-color: black;
+                left: 30%;
+                top: 60%;
+                width: 30%;
+                padding: 1%;
+                transform: rotate(10deg);
+                font-size: 1.5vw;
+            }
+        }
+        .scene02 {
+            .img01 {
+                z-index: 10;
+                position: absolute;
+                right: 45%;
+                /* top: 30%; */
+                top: 40%;
+                transform: rotate(10deg);
+                z-index: 9;
+            }
+            .txt {
+                position: absolute;
+                background-color: black;
+                left: 30%;
+                top: 35%;
+                width: 30%;
+                padding: 1%;
+                font-size: 1.5vw;
+            }
+    
+        }
+        .scene03 {
+            .img01 {
+                z-index: 10;
+                position: absolute;
+                height: 60%;
+                left: 18%;
+                transform: rotate(10deg);
+                z-index: 9;
+                margin-top: 10%;
+            }
+            .txt {
+                position: absolute;
+                background-color: black;
+                left: 40%;
+                margin-top: 35%;
+                width: 30%;
+                padding: 1%;
+                font-size: 1.5vw;
+                z-index: 12;
+            }
+        }
+        .scene04 {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            .img01 {
+                z-index: 10;
+                position: absolute;
+                height: 40%;
+                transform: rotate(-15deg);
+                z-index: 9;
+                left: 35%;
+                margin-top: 25%;
+            }
+            .txt {
+                position: absolute;
+                background-color: black;
+                left: 40%;
+                margin-top: 20%;
+                width: 30%;
+                padding: 1%;
+                font-size: 1.5vw;
+                z-index: 12;
+            }
+        }
+        .scene05 {
+            .img01 {
+                z-index: 10;
+                position: absolute;
+                /* height: 40%; */
+                transform: rotate(10deg);
+                z-index: 9;
+                left: 15%;
+                margin-top: 15%;
+            }
+            .img02 {
+                z-index: 10;
+                position: absolute;
+                /* height: 40%; */
+                transform: rotate(-20deg);
+                z-index: 9;
+                left: 55%;
+                margin-top: 10%;
+            }
+            .txt {
+                position: absolute;
+                background-color: black;
+                left: 20%;
+                top: 10%;
+                width: 30%;
+                padding: 1%;
+                font-size: 1.5vw;
+                z-index: 12;
+            }
+        }
+    }
+
+    
+}
